@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <title>Typespeed</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel='stylesheet' type='text/css' href='css/home_style.css' </head>
+
+<body>
+  <header class='masterhead'>
+    Let's Start
+  </header>
+  <div id='contain-how-to-play-level-tag'>
+    <div id='how-to-play'>
+      <p><a href="#game-desc" style="color:#776e65;"><b>How to play →</a></p>
+    </div>
+
+    <header class='head1'>
+      <h3>Level</h3>
+      <div class='div1_easy' id='div1_easy'>Easy</div>
+      <div class='div1_hard' id='div1_hard'>Hard</div>
+    </header>
+  </div>
+  <main>
+    <div class='word_to_type'>
+      <h1 id='word_to_type'></h1>
+      <input type='text' name='answer' id='answer'>
+    </div>
+
+    <div>
+      <button id='submit_btn' onclick="submit()"> submit</button>
+    </div>
+
+    <h3>Time left</h3>
+    <div id='bar_div1'>
+      <div id='bar_div2'></div>
+    </div>
+    <!-- <p id='time_left'>5</p> -->
+    <h3 id='correctness-answer'></h3>
+  </main>
+  <div class='score_block'>
+    <p id='score'>0</p>
+    <h3 id='score_head'> score</h3>
+  </div>
+  <div id='game-desc' class='game-desc'>
+    <p>HOW TO PLAY:</p>
+    <h4><a href='#answer' style="color:#776e65">Start playing →</a></h4>
+    <div class='creater'>
+      <p>Created by saurabh.
+      </p>
+    </div>
+  </div>
+  <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+  <script type='text/javascript' src='js/home.js'></script>
+
+</body>
+
+</html>
